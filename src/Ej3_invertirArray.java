@@ -24,12 +24,7 @@ public class Ej3_invertirArray {
         }
 
         System.out.println("Números ingresados:" + cadenaDeNumeros);
-        String cadenaDeNumeros2 = "-";
-        Arrays.sort(nums);
-        for (byte num : nums) {
-            cadenaDeNumeros2 += num + "-";
-        }
-        System.out.println("Números ordenados:" + cadenaDeNumeros2);
+
         String cadenaDeNumeros3 = "-";
         for (int i = nums.length - 1; i >= 0; i--) {
             cadenaDeNumeros3 += nums[i] + "-";

@@ -11,10 +11,6 @@ public class Ej8_promedioNotaMasAlta {
             notas[i]= sc.nextInt();
         }
 
-        //Promedio
-
-
-
         int notaMasAlta=0;
         int suma=0;
         for (int i=0;i<notas.length;i++){
